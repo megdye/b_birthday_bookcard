@@ -63,12 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
 
+    // thumbnail onclick
     thumbnails.forEach((thumbnail, index) => {
         thumbnail.addEventListener('click', () => {
             updateMainImage(index);
         });
     });
 
+    // buttons onclick
     prevBtn.addEventListener('click', () => {
         currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
         updateMainImage(currentIndex, 'prev');
@@ -99,8 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
             nextBtn.click();
         }
     });
-
-
 
     // Touch swipe functionality
     let touchStartX = 0;
