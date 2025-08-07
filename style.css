@@ -24,7 +24,7 @@ body {
 }
 
 .content {
-    position: relative; /* Position the background text */
+    position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     left:0;
     right:0;
@@ -36,8 +36,8 @@ body {
     display: none;
     justify-content: center;
     align-items: center;
-    }
-    
+  }
+
 
 .main-image {
     position: relative;
