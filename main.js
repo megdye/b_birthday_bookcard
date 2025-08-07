@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentIndex = 0;
     const animations = ['zoom-animation', 'rotate-animation', 'slide-right-animation', 'slide-left-animation'];
-    const links = ['image1', 'image2', 'image3', 'image4', 'image5'];
+    const links = ["Welcome to B's Birthday Bookcard! Click the file button on the top left to reveal the download code!", 'image2', 'image3', 'image4', 'image5'];
     let currentAnimation = 0;
 
     function updateMainImage(index, direction) {
