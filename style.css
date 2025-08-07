@@ -24,7 +24,7 @@ body {
 }
 
 .content {
-    position: absolute; /* Position the background text */
+    position: relative; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     left:0;
     right:0;
@@ -117,10 +117,6 @@ body {
 .next-btn {
     right: 10px;
 }
-
-.wrapper {
-    position: relative;
-  }
 
 .fullscreen-btn {
     position: absolute;
