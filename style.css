@@ -23,7 +23,7 @@ body {
     overflow: hidden;
 }
 
-.gallery-container .content {
+.content {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
@@ -190,7 +190,7 @@ body {
         max-width: 90%;
     }
 
-    .gallery-container .content 
+    .content 
     {
         max-width: 90%;
     }
@@ -225,7 +225,7 @@ body {
         max-width: 100%;
     }
 
-    .gallery-container .content 
+    .content 
     {
         max-width: 100%;
     }
