@@ -23,19 +23,19 @@ body {
     overflow: hidden;
 }
 
-.content {
-    position: relative; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    left:0;
-    right:0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
-    padding: 20px; /* Some padding */
+  .content {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 1000; /* Make sure it sits above everything */
   }
 
 .main-image {
