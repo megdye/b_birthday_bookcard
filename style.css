@@ -118,6 +118,10 @@ body {
     right: 10px;
 }
 
+.wrapper {
+    position: relative;
+  }
+
 .fullscreen-btn {
     position: absolute;
     top: 10px;
